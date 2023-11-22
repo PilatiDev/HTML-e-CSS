@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" type="text/css" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+    />
+    <link rel="shortcut icon" href="img/icon.png" />
+    <title>YouTube</title>
+  </head>
+
+  <body>
+    <header class="header">
+      <div class="logo">
+        <i class="material-icons" id="subMenu" title="Menu">menu</i>
+        <img
+          title="Página inicial do YouTube"
+          src="img/YouTube_Logo_2017.svg"
+        />
+      </div>
+      <div class="search">
+        <input
+          id="inputText"
+          type="text"
+          placeholder="  Pesquisar                 
+                                                                  
+               ⌨"
+        />
+        <div class="searchbtn">
+          <div title="Pesquisar">
+            <button id="btn_search">
+              <i class="material-icons">search</i>
+            </button>
+          </div>
+        </div>
+        <div title="Pesquisar com sua voz">
+          <button id="btn_mic"><i class="material-icons">mic</i></button>
+        </div>
+      </div>
+      <div class="icons">
+        <div title="Criar">
+          <i class="material-icons">video_call</i>
+        </div>
+        <i class="material-icons" title="Apps">apps</i>
+        <div class="notifications" title="Notificações">
+          <i class="material-icons">notifications</i>
+          <!-- <span data-count="9+" id="notificationIcon"></span> -->
+        </div>
+        <img id="usuarioLateral" src="img/myProfile.jpg" />
+      </div>
+    </header>
+    <nav class="sidebar">
+      <div class="links">
+        <div class="icon" id="inicioLateral">
+          <a href="" title="Início"
+            ><i class="material-icons">home</i> <span>Início</span></a
+          >
+        </div>
+        <div class="icon">
+          <a href="" title="Explorar"
+            ><i class="material-icons">explore</i>
+            <span>Explorar</span>
+          </a>
+        </div>
+        <div class="icon">
+          <a href="" title="Inscrições"
+            ><i class="material-icons">subscriptions</i>
+            <span>Inscrições</span></a
+          >
+        </div>
+        
+      </div>
+      <div class="links link-2">
+        <div class="icon" id="link2Position" title="Biblioteca">
+          <a href=""
+            ><i class="material-icons">video_library</i>
+            <span>Biblioteca</span></a
+          >
+        </div>
+        <div class="icon" title="Histórico">
+          <a href=""
+            ><i class="material-icons">history</i> <span>Histórico</span></a
+          >
+        </div>
+        <div class="icon" title="Assistir mais tarde">
+          <a href=""
+            ><i class="material-icons">watch_later</i>
+            <span>Assistir mais tarde</span></a
+          >
+        </div>
+        <div class="icon" title="Videos marcados">
+          <a href=""
+            ><i class="material-icons">thumb_up</i> <span>Gostei</span></a
+          >
+        </div>
+      </div>
+      <div class="subscriptions links">
+        <h6><span id="inscricoes" class="backgroundTitle">Inscrições</span></h6>
+        <div class="icon" id="inscricoesEspaco" title="Jovem Tranquilão">
+          <img class="imgInscricoes" src="img/testJovemTranquilao.jpg" />
+          <span class="nomesInscritos">Jovem Tranquilão</span>
+        </div>
+        <div class="icon" title="manodeyvin">
+          <img class="imgInscricoes" src="img/manodeyvin.jpg" />
+          <span class="nomesInscritos">mano deyvin</span>
+        </div>
+        <div class="icon" title="Fabio Akita">
+          <img class="imgInscricoes" src="img/fabioAkita.jpg" />
+          <span class="nomesInscritos">Fabio Akita</span>
+        </div>
+        <div class="icon" title="Lucas Montano">
+          <img class="imgInscricoes" src="img/lucasMontano.jpg" />
+          <span class="nomesInscritos">Lucas Montano</span>
+        </div>
+        <div class="icon" title="Curso em Vídeo">
+          <img class="imgInscricoes" src="img/cursoEmVideo.jpg" />
+          <span class="nomesInscritos">Curso em Vídeo</span>
+        </div>
+        <div class="icon" title="Glaucia Lemos">
+          <img class="imgInscricoes" src="img/glauciaLemos.jpg" />
+          <span class="nomesInscritos">Glaucia Lemos</span>
+        </div>
+      </div>
+      <div class="subscriptions links exploreSide">
+        <h6><span id="inscricoes" class="backgroundTitle">Explorar</span></h6>
+
+        <div class="icon" id="inscricoesEspaco" title="Músicas">
+          <a href=""><i class="material-icons">audiotrack</i></a>
+          <span class="side_explore">Músicas</span>
+        </div>
+        <div class="icon" title="Esportes">
+          <a href=""><i class="material-icons">emoji_events</i></a>
+          <span class="side_explore">Esportes</span>
+        </div>
+        <div class="icon" title="Jogos">
+          <a href=""><i class="material-icons">sports_esports</i></a>
+          <span class="side_explore">Jogos</span>
+        </div>
+        <div class="icon" title="Curso:TypeScript">
+          <a href=""><i class="material-icons">playlist_play</i></a>
+          <span class="side_explore">Curso:TypeScript</span>
+        </div>
+        <div class="icon" title="Git e Github na prática">
+          <a href=""><i class="material-icons">playlist_play</i></a>
+          <span class="side_explore">Git e Github na prática</span>
+        </div>
+        <div
+          class="icon" title="Ya Like Jazz? 90s jungle/90s dnb_ambient/jazzy mix">
+          <a href=""><i class="material-icons">playlist_play</i></a>
+          <span class="side_explore">Ya Like Jazz? 90s jungle</span>
+        </div>
+        <div class="icon" title="CR7 GOAT">
+          <a href=""><i class="material-icons">playlist_play</i></a>
+          <span class="side_explore">CR7 GOAT</span>
+        </div>
+        <div class="icon" title="Curso: Angular | aula 63">
+          <a href=""><i class="material-icons">playlist_play</i></a>
+          <span class="side_explore">Curso: Angular | aula 63</span>
+        </div>
+      </div>
+    </nav>
+    <main>
+
+      <div id="test_categoria">
+        <form id="categoria_flex">
+          <div id="categoria_tudo" class="categoria" title="Tudo">Tudo</div>
+          <div class="categoria" title="Flamengo">Flamengo</div>
+          <div class="categoria" title="React">React</div>
+          <div class="categoria" title="JavaScript">JavaScript</div>
+          <div class="categoria" title="Fisiculturismo" >Fisiculturismo</div>
+          <div class="categoria" title="Jogos">Jogos</div>
+          <div class="categoria" title="Angular">Angular</div>
+          <div class="categoria" title="Rock">Rock</div>
+          <div class="categoria" title="DJmix">DJmix</div>
+          <div class="categoria" title="Podcast">Podcast</div>
+          <div class="categoria" title="AliExpress">AliExpress</div>
+          <div class="categoria" title="Músicas">Músicas</div>
+          <div class="categoria" title="MySQL">MySQL</div>
+          <div class="categoria" title="Programação">Programação</div>
+          <div class="categoria" title="Assembly">Assembly</div>
+<!--           <div class="categoria" title="C#">C#</div>
+          <div class="categoria" title="Flexbox">Flexbox</div>
+          <div class="categoria" title="Grid">Grid</div>
+          <div class="categoria" title="Bubble">Bubble</div>  -->
+        </form> 
+      </div>
+      <div id="section_central">
+      <section class="videos_section">
+        <article >
+          <div class="videos_flex">A</div>
+          <div class="videos_flex">A</div>
+          <div class="videos_flex">A</div>
+        </article>
+        <article>
+          <div class="videos_flex">B</div>
+          <div class="videos_flex">B</div>
+          <div class="videos_flex">B</div>
+        </article>
+        <article>
+          <div class="videos_flex">C</div>
+          <div class="videos_flex">C</div>
+          <div class="videos_flex">C</div>
+        </article>
+      </section>
+    </div>
+    </main>
+    <footer></footer>
+  </body>
+</html>
